@@ -12,6 +12,32 @@ def 함수이름():
     기능
     return 반환값
 
-    
+def f(x) :
+    y = x + 2
+    return y
+
+i = f(2)
+print(y)
+
+결과 : 4
 
 '''
+
+# def f(x) :
+#     y = x + 3
+
+#     return y
+
+# print(f(5))
+
+number = int(input('숫자를 입력하세요 : '))
+
+def f(n) :
+    if n % 2 == 0 :
+        return '짝수 입니다.'
+    elif n == 0 :
+        return '0입니다.'
+    else :
+        return '홀수 입니다.'
+    
+print(f(number))
