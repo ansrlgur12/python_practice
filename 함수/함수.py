@@ -36,6 +36,8 @@ def f(n) :
     if n % 2 == 0 :
         return '짝수 입니다.'
     elif n == 0 :
+
+        
         return '0입니다.'
     else :
         return '홀수 입니다.'
